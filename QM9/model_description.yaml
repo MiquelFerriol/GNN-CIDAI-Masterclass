@@ -48,7 +48,7 @@ message_passing:
                 input:
                   # INPUT OF THE MESSAGE FUNCTION GOES HERE
         aggregation:
-          - type: #AGGREGATION TYPE: min, max, mean, sum, concat
+          - type: #AGGREGATION TYPE: min, max, mean, sum...
         update:
           type: neural_network
           nn_name: #NAME OF THE UPDATE FUNCTION -> LOOK AT THE neural_networks SECTION OF THIS YAML FILE
